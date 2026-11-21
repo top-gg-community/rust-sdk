@@ -37,7 +37,7 @@ actix-web = { version = "4", default-features = false, optional = true }
 
 [dev-dependencies]
 tokio = { version = "1", features = ["rt", "macros"] }
-twilight-gateway = "0.15"
+twilight-gateway = "0.18"
 
 [lints.clippy]
 all = { level = "warn", priority = -1 }
